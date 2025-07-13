@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 20px;
+  background: #f4f4f4;
+}
+.navbar {
+  background: #333;
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.login-container, #chatbox {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+input, button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+#messages {
+  background: #eee;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
