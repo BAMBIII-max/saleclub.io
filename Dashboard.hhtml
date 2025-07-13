@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <a href="dashboard.html">Dashboard</a>
+    <a href="input.html">Input</a>
+    <a href="report.html">Report</a>
+    <a href="chatbot.html">Chatbot</a>
+    <a href="#" onclick="logout()">Logout</a>
+  </div>
+  <h1>Sales Dashboard</h1>
+  <div id="dashboard-content">Data will be shown here...</div>
+  <script src="script.js"></script>
+</body>
+</html>
