@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Input Data</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="navbar">
+    <a href="dashboard.html">Dashboard</a>
+    <a href="input.html">Input</a>
+    <a href="report.html">Report</a>
+    <a href="chatbot.html">Chatbot</a>
+    <a href="#" onclick="logout()">Logout</a>
+  </div>
+  <h2>Input Sales Data</h2>
+  <input type="text" id="productName" placeholder="Product Name" />
+  <input type="number" id="productQty" placeholder="Quantity" />
+  <input type="number" id="productPrice" placeholder="Price" />
+  <button onclick="addData()">Add</button>
+  <div id="input-message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
